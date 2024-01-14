@@ -1,9 +1,13 @@
-import Header from './Header/header'
 import './App.css';
-import Profile from './Profile/profile';
-import Recent from './Recent/recent'
-import StartPost from './StartPost/startpost';
-import EachPost from './EachPost/eachpost';
+
+import Header from './Components/Header/header'
+import Profile from './Components/Profile/profile';
+import Recent from './Components/Recent/recent'
+import StartPost from './Components/StartPost/startpost';
+import EachPost from './Components/EachPost/eachpost';
+import News from './Components/LinkedinNews/news';
+import Adds from './Components/Advertisements/Add';
+
 function App() {
      return (<div className='main'>
           <Header />
@@ -15,7 +19,14 @@ function App() {
           <StartPost />
           <br ></br>
           <EachPost />
-          
+          <br></br>
+          <EachPost />
+          <br></br>
+          <EachPost />
+          <br></br>
+          <News />
+          <br></br>
+          <Adds />
      </div>);
 }
 

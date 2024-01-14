@@ -1,0 +1,9 @@
+.news{
+    width: 20%;
+    height: 300px;
+    background-color: #ffff;
+    position: relative;
+    margin-left:67%;
+    border-radius: 10px;
+    top: -297%;
+}
