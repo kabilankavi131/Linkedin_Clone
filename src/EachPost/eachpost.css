@@ -1,0 +1,8 @@
+.eachpost{
+    width: 36%;
+    height: 60%;
+    background-color: #ffff;
+    position: absolute;
+    top:30%;
+    margin-left: 30%;
+}
