@@ -122,10 +122,17 @@ a {
 /* Search container  Bugs Not yet Fixed*/
 .search_linkedin {
   width: 440px;
-  height: 200px;
+  height: 0px;
+  border-radius: 3px;
   background-color: yellowgreen;
   position: absolute;
   left: 16%;
   top: 90%;
-  display: none;
+  transition: 0.2s;
+}
+.search_linkedin.show {
+  height: 250px;
+}
+img:hover,.navigations:hover,.pro:hover{
+  cursor: pointer;
 }

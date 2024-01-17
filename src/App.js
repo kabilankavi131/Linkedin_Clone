@@ -16,23 +16,21 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-      <span id="dim">
-        <Profile />
-        <br />
-        <Recent />
-        <br />
-        <StartPost />
-        <br></br>
-        <EachPost />
-        <br></br>
-        <EachPost />
-        <br></br>
-        <EachPost />
-        <br></br>
-        <News />
-        <br></br>
-        <Adds />
-      </span>
+      <Profile />
+      <br />
+      <Recent />
+      <br />
+      <StartPost />
+      <br></br>
+      <EachPost />
+      <br></br>
+      <EachPost />
+      <br></br>
+      <EachPost />
+      <br></br>
+      <News />
+      <br></br>
+      <Adds />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 alert(
-  "Thsi website is under development so kindly view this website in a desktop. Mobile view not is  yet developed"
+  "This website is under development so kindly view this website in a desktop. Mobile view is not  yet developed"
 );
 root.render(
   <React.StrictMode>
