@@ -28,6 +28,10 @@ function App() {
       <br></br>
       <EachPost />
       <br></br>
+      <EachPost />
+      <br></br>
+      <EachPost />
+      <br></br>
       <News />
       <br></br>
       <Adds />

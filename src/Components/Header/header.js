@@ -54,7 +54,7 @@ var Header = () => {
         <img className="business" src={four_dot}></img>
         <h7 className="business_text">For Business</h7>
         <img className="down_arrow2" src={down_arrow}></img>
-        <a href="#">
+        <a className="premium" href="#">
           <h6>
             Unlock 1 month of <br></br>Preminum
           </h6>

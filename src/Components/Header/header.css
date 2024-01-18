@@ -111,7 +111,7 @@ h7 {
   left: 82.1%;
   top: 65%;
 }
-a {
+.premium {
   position: absolute;
   left: 84%;
   top: 25%;
@@ -124,7 +124,7 @@ a {
   width: 440px;
   height: 0px;
   border-radius: 3px;
-  background-color: yellowgreen;
+  background-color: #fff;
   position: absolute;
   left: 16%;
   top: 90%;
@@ -132,7 +132,10 @@ a {
 }
 .search_linkedin.show {
   height: 250px;
+  border: 2px solid rgb(0, 0, 0.2);
 }
-img:hover,.navigations:hover,.pro:hover{
+img:hover,
+.navigations:hover,
+.pro:hover {
   cursor: pointer;
 }

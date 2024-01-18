@@ -1,9 +1,46 @@
-.news{
-    width: 20%;
-    height: 300px;
-    background-color: #ffff;
-    position: relative;
-    margin-left:67%;
-    border-radius: 10px;
-    top: -297%;
+.news {
+  width: 20%;
+  height: 300px;
+  background-color: #ffff;
+  position: absolute;
+  margin-left: 67%;
+  border-radius: 10px;
+  top: 80px;
+}
+.news h3 {
+  padding: 10px;
+  font-size: 15px;
+  color: #535353;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.news .dot {
+  float: right;
+  padding: 10px;
+  position: relative;
+  top: -35px;
+}
+.news ul li {
+  font-size: 14px;
+  position: relative;
+  padding: 10px;
+  color: #535353;
+  font-weight: bold;
+}
+.news ul li:hover {
+  background-color: #c4c4c462;
+}
+.news ul li span {
+  color: #535353;
+  font-size: 13px;
+  position: relative;
+  left: 10px;
+  font-weight: normal;
+}
+.news ul li:hover {
+  cursor: pointer;
 }

@@ -1,9 +1,62 @@
 .adds {
   width: 20%;
-  height: 300px;
+  height: 350px;
   margin-left: 67%;
   position: absolute;
   top: 52%;
   border-radius: 10px;
   background-color: #ffff;
+}
+.adds p:nth-child(2) {
+  font-size: 14px;
+  color: #666666;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+.adds .ad {
+  position: relative;
+  left: 80%;
+  top: 5px;
+}
+.adds .ad img {
+  position: relative;
+  top: 6px;
+}
+.adds .profile {
+  width: 30%;
+}
+.adimg {
+  width: 30%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+.adds .images {
+  position: relative;
+  left: -3%;
+  top: 20px;
+}
+.adds .images p {
+  position: relative;
+  left: -5%;
+  top: 10px;
+  text-align: center;
+}
+.adds button {
+  position: relative;
+  top: 50%;
+  left: 35%;
+  outline: none;
+  border: 1px solid #3c9fdf;
+  width: 100px;
+  color: #0e8add;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.adds button:hover {
+  border: 2px solid #268bce;
+  background-color: #0e8add2e;
 }
