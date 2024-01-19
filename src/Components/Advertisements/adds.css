@@ -12,11 +12,11 @@
   color: #666666;
   position: relative;
   left: 30px;
-  top: 20px;
+  top: 25px;
 }
 .adds .ad {
   position: relative;
-  left: 80%;
+  float: right;
   top: 5px;
 }
 .adds .ad img {

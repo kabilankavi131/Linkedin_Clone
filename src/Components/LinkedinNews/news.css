@@ -3,7 +3,7 @@
   height: 300px;
   background-color: #ffff;
   position: absolute;
-  margin-left: 67%;
+  left: 67%;
   border-radius: 10px;
   top: 80px;
 }

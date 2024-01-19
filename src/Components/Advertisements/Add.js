@@ -26,7 +26,7 @@ const Adds = () => {
   }, []);
 
   return (
-    <div className="adds">
+    <div id="adds" className="adds">
       <p className="ad">
         Ad&nbsp;&nbsp;<img src={threedot}></img>
       </p>
