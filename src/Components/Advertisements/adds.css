@@ -6,6 +6,7 @@
   top: 52%;
   border-radius: 10px;
   background-color: #ffff;
+  border:1px solid #c9c6c1;
 }
 .adds p:nth-child(2) {
   font-size: 14px;

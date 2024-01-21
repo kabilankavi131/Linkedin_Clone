@@ -5,7 +5,7 @@ import gold from "../Images/gold.png";
 import item from "../Images/item-icon.svg";
 var Profile = () => {
   return (
-    <div className="container">
+    <div className="profile-container">
       <img className="banner" src={banner}></img>
       <img className="profile" src={photo}></img>
       <h4 className="username">

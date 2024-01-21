@@ -5,6 +5,7 @@
   background-color: #ffffff;
   border-radius: 10px;
   transition: 0.3s;
+  border:1px solid #c9c6c1;
 }
 .recent h6 {
   position: relative;
