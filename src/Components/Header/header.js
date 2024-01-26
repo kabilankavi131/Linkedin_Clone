@@ -21,58 +21,36 @@ var Header = () => {
   return (
     <header>
       <div className="first_part">
-        {" "}
-        <img id="logo" src={logo} />
+        <img className="logo" src={logo}></img>
         <div className="search_container">
-          <input
-            id="ss"
-            placeholder="Search"
-            onFocus={handleSearchFocus}
-            onBlur={() => setIsSearchFocused(false)}
-          />
-          <img className="search_logo" src={search_logo}></img>
+          <img src={search_logo}></img>
+          <input placeholder="Search"></input>
         </div>
-      </div>
-      <br></br>
-      <div className="second_part">
-        <div className="navigations">
-          <FontAwesomeIcon className="navs house" icon={faHouse} />
-          <img className="navs" src={network} />
-          <img className="navs" src={job} />
-          <img className="navs" src={message} />
-          <img className="navs" src={notification} />
-          <img width="25px" className="navs" src={profile} />
+        <div className="second_part">
+          <img className="second-part-images" src={search_logo}></img>
+          <span>Search</span>
+          <FontAwesomeIcon
+            className="second-part-images home"
+            icon={faHouse}
+          ></FontAwesomeIcon>
+          <span>Home</span>
+          <img className="second-part-images" src={network}></img>
+          <span>My Network</span>
+          <img className="second-part-images" src={job}></img>
+          <span>Jobs</span>
+          <img className="second-part-images" src={message}></img>
+          <span>Messaging</span>
+          <img className="second-part-images" src={notification}></img>
+          <span>Notifications</span>
+          <img className="second-part-images" src={profile}></img>
           <img className="down_arrow" src={down_arrow}></img>
-          <div className="navs_texts">
-            <h7>Home</h7>
-            <h7>My Network</h7>
-            <h7>Jobs</h7>
-            <h7>Messaging</h7>
-            <h7>Notifications</h7>
-            <h7>Me</h7>
-          </div>
-          <div className="vertical-line"></div>
-        </div>
-      </div>
-      <div className="third_part">
-        <span className="pro">
-          <img className="business" src={four_dot}></img>
-          <h7 className="business_text">For Business</h7>
-          <img className="down_arrow2" src={down_arrow}></img>
-          <a className="premium" href="#">
-            <h6>
-              Unlock 1 month of <br></br>Preminum
-            </h6>
-          </a>
-        </span>
-      </div>
-      {/* <span>Network Smarter, Try Premium Free</span> */}
+          <span>Me</span>
 
-      {/* -----------------------------Search Linkedin  Container----------------------------- */}
-      <div
-        id="search_linkedin"
-        className={isSearchFocused ? "search_linkedin show" : "search_linkedin"}
-      ></div>
+          <img className="third-part-images" src={four_dot}></img>
+          <span>For Business</span>
+          <a href="#">Try Premium for ₹0</a>
+        </div>  
+      </div>
     </header>
   );
 };

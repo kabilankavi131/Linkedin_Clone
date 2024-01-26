@@ -1,7 +1,8 @@
 .recent {
   width: 15%;
   height: 380px;
-  margin-left: 13%;
+  position: relative;
+  left: 13%;
   background-color: #ffffff;
   border-radius: 10px;
   transition: 0.3s;

@@ -1,0 +1,49 @@
+==================================NPM===============================
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBXzmITtXItP1gibxnHblKicjnIcR2GynA",
+  authDomain: "linkedinclone-7b8e3.firebaseapp.com",
+  projectId: "linkedinclone-7b8e3",
+  storageBucket: "linkedinclone-7b8e3.appspot.com",
+  messagingSenderId: "193462665543",
+  appId: "1:193462665543:web:35901c2ddd3cca655ecc62",
+  measurementId: "G-RJFJMCNZWD"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+============================================Script====================================
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBXzmITtXItP1gibxnHblKicjnIcR2GynA",
+    authDomain: "linkedinclone-7b8e3.firebaseapp.com",
+    projectId: "linkedinclone-7b8e3",
+    storageBucket: "linkedinclone-7b8e3.appspot.com",
+    messagingSenderId: "193462665543",
+    appId: "1:193462665543:web:35901c2ddd3cca655ecc62",
+    measurementId: "G-RJFJMCNZWD"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
