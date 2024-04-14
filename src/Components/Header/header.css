@@ -31,6 +31,17 @@ header {
   justify-content: center;
   align-items: center;
 }
+.suggestionBox {
+  width: 350px;
+  height: 0px;
+  background-color: #ffff;
+  position: absolute;
+  left: 15.5%;
+  transition: 0.3s;
+  top: 100%;
+  left: 1%;
+  border: 1px solid gray;
+}
 .search_container img {
   position: relative;
   left: 10px;
@@ -69,18 +80,18 @@ header {
   font-size: 3vw;
   color: #666666;
 }
-.second_part a{
+.second_part a {
   color: rgb(123, 109, 75);
   position: relative;
-  left:-10px;
-  right:10%;
-  margin-right:10px;
+  left: -10px;
+  right: 10%;
+  margin-right: 10px;
 }
-.down_arrow{
+.down_arrow {
   position: relative;
   top: 10px;
 }
-.second_part span:hover{
+.second_part span:hover {
   border-bottom: 3px solid rgb(14, 14, 14);
 }
 /* Responsive Media Query for mobile screen */
@@ -114,5 +125,4 @@ header {
     margin-top: -15px;
     width: 20px;
   }
-
 }

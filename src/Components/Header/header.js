@@ -11,6 +11,7 @@ import notification from "./Images/nav-notifications.svg";
 import profile from "./Images/profile.png";
 import down_arrow from "./Images/down-icon.svg";
 import four_dot from "./Images/nav-work.svg";
+import { height } from "@fortawesome/free-brands-svg-icons/fa42Group";
 var Header = () => {
   const [isSearchFocused, setIsSearchFocused] = useState(false);
 
@@ -18,13 +19,24 @@ var Header = () => {
   const handleSearchFocus = () => {
     setIsSearchFocused(true);
   };
+  var call = () => {
+    document.getElementById("btn").addEventListener("click", () => {
+      var height = document.getElementById("suggestionBox");
+      if (height.style.height == "300px") {
+        height.style.height = "0px";
+      } else {
+        height.style.height = "300px";
+      }
+    });
+  };
   return (
     <header>
       <div className="first_part">
         <img className="logo" src={logo}></img>
         <div className="search_container">
           <img src={search_logo}></img>
-          <input placeholder="Search"></input>
+          <input onClick={call} id="btn" placeholder="Search"></input>
+          <div id="suggestionBox" className="suggestionBox"></div>
         </div>
         <div className="second_part">
           <img className="second-part-images" src={search_logo}></img>
@@ -49,7 +61,7 @@ var Header = () => {
           <img className="third-part-images" src={four_dot}></img>
           <span>For Business</span>
           <a href="#">Try Premium for ₹0</a>
-        </div>  
+        </div>
       </div>
     </header>
   );
